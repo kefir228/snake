@@ -10,7 +10,8 @@ body{
    flex-wrap:wrap;
 }
 .section__item--first{
-   flex-basis: 400px;
+   min-width: 300px;
+   flex-basis: 33%;
    color: white;
    background-color: red;
    font-size: 40px;
@@ -20,7 +21,8 @@ body{
    align-items: center;
 }
 .section__item--second{
-   flex-basis: 400px;
+   min-width: 300px;
+   flex-basis: 33%;
    color: white;
    background-color: rgb(171, 2, 2);
    font-size: 40px;
@@ -30,7 +32,8 @@ body{
    align-items: center;
 }
 .section__item--third{
-   flex-basis: 400px;
+   min-width: 300px;
+   flex-basis: 33%;
    color: white;
    background-color: rgb(106, 2, 2);
    font-size: 40px;
@@ -41,7 +44,8 @@ body{
    
 }
 .section__item--fourth{
-   flex-basis: 400px;
+   min-width: 300px;
+   flex-basis: 33%;
    color: white;
    background-color: rgb(70, 1, 1);
    font-size: 40px;
@@ -52,7 +56,8 @@ body{
    order: 6;
 }
 .section__item--fifth{
-   flex-basis: 400px;
+   min-width: 300px;
+   flex-basis: 33%;
    color: white;
    background-color: rgb(56, 0, 0);
    font-size: 40px;
@@ -63,7 +68,8 @@ body{
    order: 5;
 }
 .section__item--sixth{
-   flex-basis: 400px;
+   min-width: 300px;
+   flex-basis: 33%;
    color: white;
    background-color: rgb(0, 0, 0);
    font-size: 40px;
@@ -73,7 +79,7 @@ body{
    align-items: center;
    order: 4;
 }
-@media(max-width:1200px){
+@media(max-width:900px){
    .section__item--fourth{
       order: 3;
    }
@@ -84,7 +90,7 @@ body{
       order: 6;
    }
 }
-@media(max-width:816px){
+@media(max-width:600px){
    .section__item--third{
       order: 3;
    }
